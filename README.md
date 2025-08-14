@@ -88,33 +88,16 @@ HEAP 1 (Handle: 0x12345678):
   Allocated: 500.00 KB
   Free: 250.00 KB
   Blocks: 45
-  Memory Regions: 12
-
-  MEMORY REGIONS:
-    Region 1:
-      Base Address: 0x12340000
-      Size: 64.00 KB
-      State: Committed
-      Type: Private
-      Protection: 0x04
+  Extracted Texts: 6349
+  TEXTS:
+    Text 1: C:\WINDOWS
 ```
 
 ## File Output
 
 The tool automatically saves a detailed report to a text file named `[processname]_heap_report.txt` in the same directory as the executable.
 
-## Common Process Names
 
-Here are some common Windows processes you can analyze:
-
-- `notepad.exe` - Notepad
-- `explorer.exe` - Windows Explorer
-- `chrome.exe` - Google Chrome
-- `firefox.exe` - Mozilla Firefox
-- `msedge.exe` - Microsoft Edge
-- `svchost.exe` - Windows Service Host
-- `winlogon.exe` - Windows Logon
-- `csrss.exe` - Client Server Runtime Subsystem
 
 ## Troubleshooting
 
