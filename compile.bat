@@ -28,7 +28,7 @@ if defined VS_PATH (
 )
 
 echo Compiling with cl.exe...
-cl.exe /EHsc /std:c++17 /O2 /MT heap_extractor.cpp /link psapi.lib /OUT:heap_extractor.exe
+cl.exe /EHsc /std:c++17 /O2 /MT main.cpp /link psapi.lib /OUT:heap_extractor.exe
 
 if %ERRORLEVEL% EQU 0 (
     echo.
@@ -39,3 +39,4 @@ if %ERRORLEVEL% EQU 0 (
 )
 
 pause
+
